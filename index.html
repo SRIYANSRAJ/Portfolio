@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfolio of Sriyans Raj — Class 11 ISC student, vibe coder, and web developer from India.">
+    <meta name="keywords" content="Sriyans Raj, portfolio, web developer, vibe coding, ISC student, India">
+    <meta property="og:title" content="Sriyans Raj | Portfolio">
+    <meta property="og:description" content="Explore the projects and journey of Sriyans Raj.">
+    <title>Sriyans Raj | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Floating Sidebar Nav Dots -->
+    <nav class="sidebar-nav" id="sidebarNav">
+        <a href="#hero" class="dot active" data-section="hero" title="Home"></a>
+        <a href="#about" class="dot" data-section="about" title="About"></a>
+        <a href="#journey" class="dot" data-section="journey" title="Journey"></a>
+        <a href="#skills" class="dot" data-section="skills" title="Skills"></a>
+        <a href="#projects" class="dot" data-section="projects" title="Projects"></a>
+        <a href="#github" class="dot" data-section="github" title="GitHub"></a>
+        <a href="#scratch" class="dot" data-section="scratch" title="Scratch"></a>
+        <a href="#funfacts" class="dot" data-section="funfacts" title="Fun Facts"></a>
+        <a href="#contact" class="dot" data-section="contact" title="Contact"></a>
+    </nav>
+
+    <!-- Top Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="logo">SR<span class="logo-dot">.</span></div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#github">GitHub</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#about">About</a>
+        <a href="#journey">Journey</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#github">GitHub</a>
+        <a href="#scratch">Scratch</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <!-- HERO -->
+    <header class="hero" id="hero">
+        <div class="hero-particles" id="particles"></div>
+        <div class="hero-content reveal fade-up">
+            <p class="hero-badge">🇮🇳 Based in India</p>
+            <h2 class="greeting">Hi there, I'm</h2>
+            <h1 class="name">Sriyans Raj</h1>
+            <p class="tagline">Class 11th ISC Student · Vibe Coder · Web Developer</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary-btn">View My Work</a>
+                <a href="#contact" class="btn secondary-btn">Get In Touch</a>
+                <a href="https://github.com/SRIYANSRAJ" target="_blank" class="btn ghost-btn"><i
+                        class="fab fa-github"></i> GitHub</a>
+            </div>
+        </div>
+        <div class="hero-image-container reveal fade-right">
+            <img src="profile.png" alt="Sriyans Raj" class="hero-image"
+                onerror="this.src='https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'">
+        </div>
+        <a href="#about" class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-arrow"></div>
+        </a>
+    </header>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+        <h2 class="section-title reveal fade-up">About Me</h2>
+        <div class="about-grid">
+            <div class="about-text reveal fade-left">
+                <p>Hello! I'm <strong>Sriyans Raj</strong>, a Class 11 student under the ISC board, based in India. I
+                    have a deep passion for <strong>vibe coding</strong> — creating beautiful, functional, and aesthetic
+                    digital experiences that feel alive.</p>
+                <p>My journey started when I was just <strong>12 years old</strong>, building games on Scratch. Since
+                    then, I've evolved into building full web applications with HTML, CSS, JavaScript, and more. I
+                    believe that code should not just work — it should <em>feel</em> beautiful.</p>
+                <p>When I'm not coding, I'm exploring new technologies, designing UI concepts, and dreaming up the next
+                    big project.</p>
+            </div>
+            <div class="about-stats reveal fade-right">
+                <div class="stat-item">
+                    <span class="stat-number" data-target="3">0</span><span class="stat-plus">+</span>
+                    <span class="stat-label">Major Projects</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="5">0</span><span class="stat-plus">+</span>
+                    <span class="stat-label">Technologies</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="6">0</span><span class="stat-plus">+</span>
+                    <span class="stat-label">Years Coding</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- JOURNEY TIMELINE -->
+    <section id="journey" class="section section-alt">
+        <h2 class="section-title reveal fade-up">My Journey</h2>
+        <div class="timeline">
+            <div class="timeline-item reveal fade-left">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-year">~2020</span>
+                    <h3>The Beginning — Scratch</h3>
+                    <p>Started building games on Scratch at around 12 years old as <strong>I-AM-GAME-BUILDER</strong>.
+                        Discovered the joy of making things interactive.</p>
+                </div>
+            </div>
+            <div class="timeline-item reveal fade-right">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-year">2023</span>
+                    <h3>Learning HTML & CSS</h3>
+                    <p>Picked up web development and started creating beautiful static pages. Fell in love with CSS
+                        animations and design.</p>
+                </div>
+            </div>
+            <div class="timeline-item reveal fade-left">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-year">2024</span>
+                    <h3>Java & Python</h3>
+                    <p>Began learning Java for ISC curriculum and Python for scripting. Built stronger logical thinking
+                        and problem-solving skills.</p>
+                </div>
+            </div>
+            <div class="timeline-item reveal fade-right">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-year">2025</span>
+                    <h3>Major Web Projects</h3>
+                    <p>Launched Jarvis, Calm & Focus, and Clock — full interactive websites deployed on GitHub Pages.
+                    </p>
+                </div>
+            </div>
+            <div class="timeline-item reveal fade-left">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-year">2026</span>
+                    <h3>Vibe Coding Era</h3>
+                    <p>Now focused on creating premium, aesthetic web experiences. Building this portfolio and exploring
+                        advanced CSS and JS.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+        <h2 class="section-title reveal fade-up">Skills & Tools</h2>
+        <div class="skills-grid">
+            <div class="skill-card reveal fade-up delay-1">
+                <div class="skill-icon-wrap"><i class="fab fa-html5"></i></div>
+                <h3>HTML5</h3>
+                <div class="skill-bar">
+                    <div class="skill-fill" data-width="90%"></div>
+                </div>
+            </div>
+            <div class="skill-card reveal fade-up delay-2">
+                <div class="skill-icon-wrap"><i class="fab fa-css3-alt"></i></div>
+                <h3>CSS3</h3>
+                <div class="skill-bar">
+                    <div class="skill-fill" data-width="85%"></div>
+                </div>
+            </div>
+            <div class="skill-card reveal fade-up delay-3">
+                <div class="skill-icon-wrap"><i class="fab fa-js-square"></i></div>
+                <h3>JavaScript</h3>
+                <div class="skill-bar">
+                    <div class="skill-fill" data-width="70%"></div>
+                </div>
+            </div>
+            <div class="skill-card reveal fade-up delay-4">
+                <div class="skill-icon-wrap"><i class="fab fa-java"></i></div>
+                <h3>Java</h3>
+                <div class="skill-bar">
+                    <div class="skill-fill" data-width="75%"></div>
+                </div>
+            </div>
+            <div class="skill-card reveal fade-up delay-5">
+                <div class="skill-icon-wrap"><i class="fab fa-python"></i></div>
+                <h3>Python</h3>
+                <div class="skill-bar">
+                    <div class="skill-fill" data-width="50%"></div>
+                </div>
+            </div>
+            <div class="skill-card reveal fade-up delay-6">
+                <div class="skill-icon-wrap"><i class="fab fa-github"></i></div>
+                <h3>Git & GitHub</h3>
+                <div class="skill-bar">
+                    <div class="skill-fill" data-width="65%"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section section-alt">
+        <h2 class="section-title reveal fade-up">Featured Projects</h2>
+        <div class="projects-showcase">
+            <!-- Jarvis -->
+            <div class="project-card-large reveal fade-left">
+                <div class="project-image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                        alt="Jarvis AI Assistant" class="project-image">
+                    <div class="project-overlay">
+                        <a href="https://sriyansraj.github.io/Jarvis/" target="_blank" class="btn primary-btn">Live Demo
+                            <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="project-details">
+                    <span class="project-tag">⭐ Featured</span>
+                    <h3>Jarvis — AI Assistant</h3>
+                    <p>An intelligent assistant interface with a futuristic UI, voice interactions, and smooth
+                        animations. Inspired by Iron Man's Jarvis.</p>
+                    <div class="tech-tags">
+                        <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Calm and Focus -->
+            <div class="project-card-large reveal fade-right">
+                <div class="project-image-wrapper">
+                    <img src="calm.png" alt="Calm and Focus" class="project-image"
+                        onerror="this.src='https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'">
+                    <div class="project-overlay">
+                        <a href="https://sriyansraj.github.io/Calm-and-Focus/" target="_blank"
+                            class="btn primary-btn">Live Demo <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="project-details">
+                    <span class="project-tag">🧘 Wellness</span>
+                    <h3>Calm and Focus</h3>
+                    <p>A serene web experience designed to help you relax, meditate, and concentrate. Features ambient
+                        sounds and calming visuals.</p>
+                    <div class="tech-tags">
+                        <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Clock -->
+            <div class="project-card-large reveal fade-left">
+                <div class="project-image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1495364141860-b0d03eccd065?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                        alt="Clock Project" class="project-image">
+                    <div class="project-overlay">
+                        <a href="https://sriyansraj.github.io/Clock/" target="_blank" class="btn primary-btn">Live Demo
+                            <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="project-details">
+                    <span class="project-tag">⏰ Utility</span>
+                    <h3>Clock</h3>
+                    <p>A sleek, modern digital clock with beautiful typography, smooth second-hand animations, and a
+                        minimalist aesthetic.</p>
+                    <div class="tech-tags">
+                        <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GITHUB -->
+    <section id="github" class="section">
+        <h2 class="section-title reveal fade-up">GitHub Activity</h2>
+        <div class="github-card reveal fade-up">
+            <div class="github-header">
+                <img src="https://avatars.githubusercontent.com/SRIYANSRAJ" alt="GitHub Avatar" class="github-avatar"
+                    onerror="this.style.display='none'">
+                <div>
+                    <h3>SRIYANSRAJ</h3>
+                    <p>Explore all my repositories and open-source contributions.</p>
+                </div>
+            </div>
+            <div class="github-contrib">
+                <img src="https://ghchart.rshah.org/D4A373/SRIYANSRAJ" alt="GitHub Contribution Chart"
+                    class="github-chart" onerror="this.style.display='none'">
+            </div>
+            <a href="https://github.com/SRIYANSRAJ" target="_blank" class="btn primary-btn">Visit My GitHub <i
+                    class="fab fa-github"></i></a>
+        </div>
+    </section>
+
+    <!-- SCRATCH -->
+    <section id="scratch" class="section section-alt">
+        <h2 class="section-title reveal fade-up">Where It All Began — Scratch</h2>
+        <div class="scratch-section reveal fade-up">
+            <div class="scratch-icon">🎮</div>
+            <h3>I-AM-GAME-BUILDER</h3>
+            <p>Before I wrote a single line of HTML, I was building games on <strong>Scratch</strong> at around 12 years
+                old. This is where my love for creating interactive experiences was born. From platformers to
+                animations, Scratch taught me the fundamentals of logic, events, and creativity.</p>
+            <a href=" https://scratch.mit.edu/users/I-AM-A-GAME-BUILDER/" target="_blank" class="btn primary-btn">View
+                My Scratch Profile <i class="fas fa-external-link-alt"></i></a>
+        </div>
+    </section>
+
+    <!-- FUN FACTS / MARQUEE -->
+    <section id="funfacts" class="section">
+        <h2 class="section-title reveal fade-up">Fun Facts</h2>
+        <div class="facts-grid">
+            <div class="fact-card reveal fade-up delay-1">
+                <div class="fact-emoji">💻</div>
+                <p>Started coding at <strong>12 years old</strong></p>
+            </div>
+            <div class="fact-card reveal fade-up delay-2">
+                <div class="fact-emoji">🇮🇳</div>
+                <p>Proudly based in <strong>India</strong></p>
+            </div>
+            <div class="fact-card reveal fade-up delay-3">
+                <div class="fact-emoji">🎨</div>
+                <p>Obsessed with <strong>aesthetic design</strong></p>
+            </div>
+            <div class="fact-card reveal fade-up delay-4">
+                <div class="fact-emoji">🎮</div>
+                <p>Built games on <strong>Scratch</strong> first</p>
+            </div>
+            <div class="fact-card reveal fade-up delay-5">
+                <div class="fact-emoji">☕</div>
+                <p>Powered by <strong>curiosity & chai</strong></p>
+            </div>
+            <div class="fact-card reveal fade-up delay-6">
+                <div class="fact-emoji">🚀</div>
+                <p>Passionate about <strong>vibe coding</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee-wrapper">
+        <div class="marquee-track">
+            <span>HTML &bull; CSS &bull; JavaScript &bull; Java &bull; Python &bull; Scratch &bull; GitHub &bull; Vibe
+                Coding &bull; Web Design &bull; Aesthetic UI &bull; </span>
+            <span>HTML &bull; CSS &bull; JavaScript &bull; Java &bull; Python &bull; Scratch &bull; GitHub &bull; Vibe
+                Coding &bull; Web Design &bull; Aesthetic UI &bull; </span>
+        </div>
+    </div>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section section-alt">
+        <h2 class="section-title reveal fade-up">Let's Connect</h2>
+        <p class="contact-subtitle reveal fade-up">I'm always open to discussing new projects, creative ideas, or
+            opportunities.</p>
+        <div class="contact-grid">
+            <a href="mailto:sriyansraj02@gmail.com" class="contact-card-item reveal fade-up delay-1">
+                <i class="fas fa-envelope"></i>
+                <h4>Email</h4>
+                <p>sriyansraj02@gmail.com</p>
+            </a>
+            <a href="https://github.com/SRIYANSRAJ" target="_blank" class="contact-card-item reveal fade-up delay-2">
+                <i class="fab fa-github"></i>
+                <h4>GitHub</h4>
+                <p>SRIYANSRAJ</p>
+            </a>
+            <div class="contact-card-item reveal fade-up delay-3">
+                <i class="fab fa-discord"></i>
+                <h4>Discord</h4>
+                <p>cookergnat46828</p>
+            </div>
+            <a href="https://scratch.mit.edu/users/I-AM-A-GAME-BUILDER/" target="_blank"
+                class="contact-card-item reveal fade-up delay-4">
+                <i class="fas fa-cat"></i>
+                <h4>Scratch</h4>
+                <p>I-AM-GAME-BUILDER</p>
+            </a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">SR<span class="logo-dot">.</span></div>
+            <div class="footer-links">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="https://github.com/SRIYANSRAJ" target="_blank">GitHub</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <p class="footer-copy">&copy; 2026 Sriyans Raj. Crafted with passion & vibe coding.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
