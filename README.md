@@ -2,7 +2,7 @@
 
 Welcome to the repository of my personal portfolio website! This is a premium, aesthetic, and fully responsive digital space showcasing my journey, skills, and projects as a web developer and student. Crafted with passion, clean design, and a lot of *vibe coding*.
 
-✨ **Live Demo:** [View Portfolio](https://sriyansraj.github.io/) *(Update this link with your actual deployment URL)*
+✨ **Live Demo:** [View Portfolio](https://sriyansraj.github.io/Portfolio/) 
 
 ---
 
